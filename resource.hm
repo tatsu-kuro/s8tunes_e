@@ -1,0 +1,7 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by s8tune.rc
+//
+#define HIDC_KENSAKU                    0x80650405    // IDD_S8TUNE_FORM
+#define HIDC_PAUSE1                     0x80650407    // IDD_S8TUNE_FORM
+#define HIDC_REWIND2                    0x80650401    // IDD_S8TUNE_FORM
+#define HIDC_SETB                       0x80650403    // IDD_S8TUNE_FORM

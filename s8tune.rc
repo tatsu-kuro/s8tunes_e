@@ -1,0 +1,325 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\s8tune.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\s8tune.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "Add files to list(&A)",          ID_ADDFILES
+        MENUITEM "Add a folder to list(&B)",          ID_ADDFOLDER
+        MENUITEM SEPARATOR
+        MENUITEM "Erase data of all songs(&E)",            ID_DELETEALL
+        MENUITEM "Erase data of selected songs(&D)",          ID_DELETEONE
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Play_mode(&P)"
+    BEGIN
+        MENUITEM "Play one(&N)",                    IDC_REPEATOFF
+        MENUITEM "Repeat one(&R)",            IDC_REPEATON
+        MENUITEM "Play selected songs(&A)",              IDC_RENZOKU
+        MENUITEM "Repeat selected songs(&Z)",          IDC_RENZOKUREPEAT
+    END
+    POPUP "Save_mode(&S)"
+    BEGIN
+        MENUITEM "wave(&V)",                    IDC_WAVERECORD
+        MENUITEM "mp3(&M)",                     IDC_MP3RECORD
+    END
+    MENUITEM "Help(&H)",                  ID_HELPDLG
+END
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "s"
+    BEGIN
+        MENUITEM "Erase data of selected songs(&D)",          ID_DELETEONE
+        MENUITEM "Duplicate data of the songs(&F)",              ID_DUPLICATE
+        MENUITEM "Change the Song and Artist name(&R)", ID_RENAME
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_CTRL_A,              VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_RETURN,              VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPEAKER             BITMAP  DISCARDABLE     "res\\speaker.bmp"
+IDB_VOLUME              BITMAP  DISCARDABLE     "res\\volume.bmp"
+IDB_PAUSE               BITMAP  DISCARDABLE     "res\\pause.bmp"
+IDB_PLAY                BITMAP  DISCARDABLE     "res\\play.bmp"
+IDB_TOTOP               BITMAP  DISCARDABLE     "res\\totop.bmp"
+IDB_TONEXT              BITMAP  DISCARDABLE     "res\\tonext.bmp"
+IDB_TONOW               BITMAP  DISCARDABLE     "res\\tonow.bmp"
+IDB_SETA                BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_PLAY1               BITMAP  DISCARDABLE     "res\\play1.bmp"
+IDB_TONEXT1             BITMAP  DISCARDABLE     "res\\tonext1.bmp"
+IDB_PAUSE1              BITMAP  DISCARDABLE     "res\\pause1.bmp"
+IDB_TOTOP1              BITMAP  DISCARDABLE     "res\\totop1.bmp"
+IDB_SETB                BITMAP  DISCARDABLE     "res\\seta1.bmp"
+IDB_SAVEAB              BITMAP  DISCARDABLE     "res\\setb1.bmp"
+IDB_RETR                BITMAP  DISCARDABLE     "res\\saveab1.bmp"
+IDB_STOP                BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_KENSONG             BITMAP  DISCARDABLE     "res\\kensong.bmp"
+IDB_KENARTIST           BITMAP  DISCARDABLE     "res\\pause3.bmp"
+IDB_KENPATH             BITMAP  DISCARDABLE     "res\\pause4.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURDROP             CURSOR  DISCARDABLE     "res\\curdrop.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "\n\ns8Tunes\n\n\ns8Tunes.Document\nS8tune Document"
+    IDS_PLAYBARRECT         "drag the triangles to move the positions.\nright click to reset the riangles position."
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (ｱﾒﾘｶ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RENAME DIALOG DISCARDABLE  0, 0, 198, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_RENAME,5,10,187,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RENAME2,5,34,187,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,90,79,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,142,79,50,14
+    CONTROL         "",IDC_CHANGETAG,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,5,57,10,8
+    LTEXT           "change the tag data of the file",IDC_CHANGETAGTXT,18,53,
+                    167,19
+END
+
+IDD_ADDTHREAD DIALOG DISCARDABLE  0, 0, 307, 42
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,201,25,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,255,25,50,14
+    LTEXT           "Static",IDC_SONGPATH,4,6,303,19
+END
+
+IDD_S8TUNE_FORM DIALOGEX 0, 0, 361, 308
+STYLE DS_LOCALEDIT | WS_CHILD
+FONT 9, "MS UI Gothic", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_KENSAKUSTR,274,36,60,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_REWIND2,148,36,13,14,BS_BITMAP,0,HIDC_REWIND2
+    CTEXT           "Song Name",IDC_SONGNAME,65,7,220,8
+    CONTROL         "",IDC_TONOW,"Static",SS_BITMAP | SS_NOTIFY,313,7,11,11
+    PUSHBUTTON      "",IDC_REWIND,7,36,13,14,BS_BITMAP
+    PUSHBUTTON      "",IDC_START,35,36,15,14,BS_BITMAP
+    PUSHBUTTON      "",IDC_TONEXT,50,36,13,14,BS_BITMAP
+    PUSHBUTTON      "",IDC_START2,176,36,13,14,BS_BITMAP
+    PUSHBUTTON      "",IDC_TONEXT2,188,36,13,14,BS_BITMAP
+    PUSHBUTTON      "Set A",IDC_SETA,203,36,18,14,BS_BITMAP
+    PUSHBUTTON      "Set B",IDC_SETB,222,36,15,14,BS_BITMAP,0,HIDC_SETB
+    PUSHBUTTON      "",IDC_HOZON,240,36,15,14,BS_BITMAP
+    PUSHBUTTON      "Retr.",IDC_KENSAKU,334,36,20,14,BS_BITMAP,0,
+                    HIDC_KENSAKU
+    CONTROL         "List1",IDC_SONGLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,5,56,350,220,
+                    WS_EX_RIGHT
+    SCROLLBAR       IDC_SCROLLBARKEY,185,292,160,11
+    SCROLLBAR       IDC_SCROLLBARTEMPO,5,292,170,11
+    PUSHBUTTON      "",IDC_PAUSE,22,36,13,14,BS_BITMAP
+    PUSHBUTTON      "",IDC_PAUSE1,160,36,13,14,BS_BITMAP,0,HIDC_PAUSE1
+    CONTROL         "",IDC_KENSAKUTYPE,"Static",SS_BITMAP | SS_NOTIFY,258,37,
+                    13,13,WS_EX_CLIENTEDGE
+END
+
+IDD_HELPDLG DIALOG DISCARDABLE  0, 0, 399, 220
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "s8Tunes"
+FONT 8, "メイリオ"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,345,203,50,14
+    LISTBOX         IDC_HELPLISTBOX,2,3,393,196,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+    CTEXT           "by tatsuaki",IDC_TATSUAKI,180,205,160,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_RENAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_ADDTHREAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_S8TUNE_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 301
+    END
+
+    IDD_HELPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 392
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英語 (ｱﾒﾘｶ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\s8tune.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
